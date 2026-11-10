@@ -23,7 +23,7 @@ xgb_nthread = 12
 output_file = "xgb_model.bin"
 
 # paste path to your file here
-df = pd.read_csv("D:\\VSCode\\AI\\Learning\\MLZoomcamp\\Midterm project\\credit_risk_dataset.csv")
+df = pd.read_csv("paste_your_path_here")
 
 df_full_train, df_test = train_test_split(df, test_size=0.2, random_state=42)
 df_train, df_val = train_test_split(df_full_train, test_size=0.25, random_state=42)
